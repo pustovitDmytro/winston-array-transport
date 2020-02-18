@@ -1,6 +1,6 @@
 {
   "name": "winston-array-transport",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "boilerplate for creating npm packages",
   "main": "./lib",
   "scripts": {
