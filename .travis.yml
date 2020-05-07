@@ -9,9 +9,9 @@ jobs:
     - stage: test
       script: "npm run test:lint"
     - stage: test
-      script: "npm run test:coverage"
-    - stage: test
       script: "npm run test:security"
+    - stage: test
+      script: "npm run test:coverage"
     - stage: release
       node_js: lts/*
       deploy:
@@ -19,6 +19,9 @@ jobs:
         skip_cleanup: true
         script:
           - npx semantic-release
+  allow_failures:
+    - stage: test
+      script: "npm run test:security"
 notifications:
   email:
     recipients: dipustovit@gmail.com

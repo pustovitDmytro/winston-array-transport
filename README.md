@@ -1,5 +1,5 @@
 # winston-array-transport
-**winston-array-transport** boilerplate for creating npm packages.
+**winston-array-transport** write winston logs directly to javascript Array.
 
 [![Version][badge-vers]][npm]
 [![Dependencies][badge-deps]][npm]
@@ -9,12 +9,19 @@
 [![License][badge-lic]][github]
 
 ## Table of Contents
+  - [Motivation](#motivation)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Configuration](#configuration)
   - [Contribute](#contribute)
 
+## Motivation
+
+There are a lot of cases, where you need to parse and analyze your logs. For example to access them during tests. This package provides transport, that allows simply push logs to js array, so you don't need any runtime parsers anymore.
+
 ## Requirements
+
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
 * node `6.0+`
@@ -30,9 +37,30 @@ To install the library run following command
 
 ## Usage
 
+The package can be used alongside any other [winston](https://github.com/winstonjs/winston) transport.
+
 ```javascript
+import ArrayTransport from 'winston-array-transport';
+import { createLogger } from 'winston';
+
+const logs = [];
+const transport  = new ArrayTransport({ array: logs, json: true, level: 'info' });
+
+export const logger = createLogger({
+    transports : [ transport ]
+});
 
 ```
+## Configuration
+
+Next options can be configured while transport creation:
+
+* **name** - name of a transport, ```ArrayTransport``` by default;
+* **eol** - end of line , ```os.EOL``` by default;
+* **array** - array, where all logs will be stored;
+* **parser** - *function*, that will be applied to log messages;
+* **json** - if set to ```true```,  ```JSON.parse``` parser will be used;
+* **limit** - allows to limit amount of logs to ```n``` last items;
 
 ## Contribute
 
