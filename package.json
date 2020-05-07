@@ -1,6 +1,6 @@
 {
   "name": "winston-array-transport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "write logs to js Array",
   "main": "./lib",
   "scripts": {
