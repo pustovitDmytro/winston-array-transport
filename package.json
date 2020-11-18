@@ -67,7 +67,7 @@
     "fs-extra": "^8.1.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
-    "semantic-release": "^15.13.19",
+    "semantic-release": "^17.2.3",
     "uuid": "^3.3.2",
     "winston": "^3.2.1"
   },
