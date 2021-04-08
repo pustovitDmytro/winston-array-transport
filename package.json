@@ -1,6 +1,6 @@
 {
   "name": "winston-array-transport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "write logs to js Array",
   "main": "./lib",
   "scripts": {
@@ -38,11 +38,11 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-proposal-decorators": "^7.3.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",
-    "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.3.4",
     "@babel/runtime": "^7.3.4",
     "@commitlint/cli": "^12.1.1",
