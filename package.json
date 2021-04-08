@@ -1,7 +1,7 @@
 {
   "name": "winston-array-transport",
-  "version": "0.0.1",
-  "description": "boilerplate for creating npm packages",
+  "version": "1.0.1",
+  "description": "write logs to js Array",
   "main": "./lib",
   "scripts": {
     "build": "babel src --out-dir ./lib",
@@ -12,7 +12,7 @@
     "test:mocha": "mocha  --config .mocharc.json tests/**/*test.js",
     "test:coverage": "MODE=test nyc mocha --config .mocharc.json tests/**/*test.js",
     "coverage-check": "MODE=test nyc check-coverage",
-    "test": "npm run test:lint && npm run test:security && npm run test:coverage",
+    "test": "npm run test:lint && npm run test:security || npm run test:coverage",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -24,11 +24,21 @@
   "bugs": {
     "url": "https://github.com/pustovitDmytro/winston-array-transport/issues"
   },
+  "keywords": [
+    "logs",
+    "winston",
+    "array",
+    "transport",
+    "parse",
+    "analyze",
+    "json"
+  ],
   "homepage": "https://github.com/pustovitDmytro/winston-array-transport#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-proposal-decorators": "^7.3.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
@@ -65,7 +75,6 @@
     "winston": "^3.2.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.8.3",
     "winston-transport": "^4.3.0"
   }
 }
