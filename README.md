@@ -1,7 +1,8 @@
 # winston-array-transport
 **winston-array-transport** write winston logs directly to javascript Array.
 
-[![Version][badge-vers]][npm]
+[![Version][badge-vers]][npm][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FpustovitDmytro%2Fwinston-array-transport.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FpustovitDmytro%2Fwinston-array-transport?ref=badge_shield)
+
 [![Dependencies][badge-deps]][npm]
 [![Vulnerabilities][badge-vuln]](https://snyk.io/)
 [![Build Status][badge-tests]][travis]
@@ -94,3 +95,6 @@ The message summary should be a one-sentence description of the change. The issu
 [badge-vers]: https://img.shields.io/npm/v/winston-array-transport.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/winston-array-transport.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/winston-array-transport/badge.svg?branch=master
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FpustovitDmytro%2Fwinston-array-transport.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FpustovitDmytro%2Fwinston-array-transport?ref=badge_large)
