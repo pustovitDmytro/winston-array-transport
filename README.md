@@ -1,11 +1,24 @@
 # winston-array-transport
-**winston-array-transport** write winston logs directly to javascript Array.
+write [winston][w-main] logs directly to javascript [Array][js-array].
+
 
 [![Version][badge-vers]][npm]
+[![Bundle size][npm-size-badge]][npm-size-url]
+[![Downloads][npm-downloads-badge]][npm]
+
+[![CodeFactor][codefactor-badge]][codefactor-url]
+[![SonarCloud][sonarcloud-badge]][sonarcloud-url]
+[![Codacy][codacy-badge]][codacy-url]
+[![Total alerts][lgtm-alerts-badge]][lgtm-alerts-url]
+[![Language grade][lgtm-lg-badge]][lgtm-lg-url]
+[![Scrutinizer][scrutinizer-badge]][scrutinizer-url]
+
 [![Dependencies][badge-deps]][npm]
 [![Vulnerabilities][badge-vuln]](https://snyk.io/)
-[![Build Status][badge-tests]][travis]
-[![Coverage Status][badge-coverage]](https://coveralls.io/github/pustovitDmytro/winston-array-transport?branch=master)
+[![Build Status][tests-badge]][tests-url]
+[![Coverage Status][badge-coverage]][url-coverage]
+
+[![Commit activity][commit-activity-badge]][github]
 [![License][badge-lic]][github]
 
 ## Table of Contents
@@ -18,7 +31,7 @@
 
 ## Motivation
 
-There are a lot of cases, where you need to parse and analyze your logs. For example to access them during tests. This package provides transport, that allows simply push logs to js array, so you don't need any runtime parsers anymore.
+There are a lot of cases where you need to parse and analyze your logs. For example, to access them during tests. This package provides transport that allows simply push logs to js array, so you don't need any runtime parsers anymore.
 
 ## Requirements
 
@@ -29,7 +42,7 @@ To use library you need to have [node](https://nodejs.org) and [npm](https://www
 
 ## Installation
 
-To install the library run following command
+To install the library run the following command
 
 ```bash
   npm i --save winston-array-transport
@@ -37,7 +50,7 @@ To install the library run following command
 
 ## Usage
 
-The package can be used alongside any other [winston](https://github.com/winstonjs/winston) transport.
+The package can be used alongside any other [winston transport][w-transports].
 
 ```javascript
 import ArrayTransport from 'winston-array-transport';
@@ -62,9 +75,13 @@ Next options can be configured while transport creation:
 * **json** - if set to ```true```,  ```JSON.parse``` parser will be used;
 * **limit** - allows to limit amount of logs to ```n``` last items;
 
+
+[w-main]: https://github.com/winstonjs/winston
+[w-transports]: https://github.com/winstonjs/winston/blob/master/docs/transports.md
+[js-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 ## Contribute
 
-Make the changes to the code and tests and then commit to your branch. Be sure to follow the commit message conventions.
+Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions.
 
 Commit message summaries must follow this basic format:
 ```
@@ -86,11 +103,37 @@ The message summary should be a one-sentence description of the change. The issu
 
 [npm]: https://www.npmjs.com/package/winston-array-transport
 [github]: https://github.com/pustovitDmytro/winston-array-transport
-[travis]: https://travis-ci.org/pustovitDmytro/winston-array-transport
 [coveralls]: https://coveralls.io/github/pustovitDmytro/winston-array-transport?branch=master
 [badge-deps]: https://img.shields.io/david/pustovitDmytro/winston-array-transport.svg
-[badge-tests]: https://img.shields.io/travis/pustovitDmytro/winston-array-transport.svg
 [badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/winston-array-transport.svg?style=popout
 [badge-vers]: https://img.shields.io/npm/v/winston-array-transport.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/winston-array-transport.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/winston-array-transport/badge.svg?branch=master
+[url-coverage]: https://coveralls.io/github/pustovitDmytro/winston-array-transport?branch=master
+
+[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/winston-array-transport
+[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/winston-array-transport
+
+[codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/winston-array-transport/badge
+[codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/winston-array-transport
+
+[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/winston-array-transport
+
+[scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/winston-array-transport/badges/quality-score.png?b=master
+[scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/winston-array-transport/?branch=master
+
+[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/winston-array-transport.svg?logo=lgtm&logoWidth=18
+[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/winston-array-transport/context:javascript
+
+[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/winston-array-transport.svg?logo=lgtm&logoWidth=18
+[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/winston-array-transport/alerts/
+
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/75132c6080bc4051801d0bf391df947f
+[codacy-url]: https://www.codacy.com/gh/pustovitDmytro/winston-array-transport/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/winston-array-transport&amp;utm_campaign=Badge_Grade
+
+[sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_winston-array-transport&metric=alert_status
+[sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_winston-array-transport
+
+[npm-downloads-badge]: https://img.shields.io/npm/dw/winston-array-transport
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/winston-array-transport
+[npm-size-url]: https://bundlephobia.com/result?p=winston-array-transport

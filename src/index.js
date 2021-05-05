@@ -1,6 +1,6 @@
 import os from 'os';
 import Transport from 'winston-transport';
-import { defaultParser, defaultParserJSON } from './defaults';
+import { defaultParser, defaultParserJSON, defaultMaxListeners } from './defaults';
 import { MESSAGE } from './constants';
 
 module.exports = class ArrayTransport extends Transport {
@@ -12,7 +12,7 @@ module.exports = class ArrayTransport extends Transport {
         this.levels = options.levels || {};
         this.parser = options.parser || options.json && defaultParserJSON || defaultParser;
         this.limit = options.limit;
-        this.setMaxListeners(options.maxListeners || 30);
+        this.setMaxListeners(options.maxListeners || defaultMaxListeners);
     }
 
     log(info, callback) {
