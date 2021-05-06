@@ -1,3 +1,14 @@
+## [1.1.1](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.0...v1.1.1) (2021-05-06)
+
+
+### Chore
+
+* sort deps ([aca06a8](https://github.com/pustovitDmytro/winston-array-transport/commit/aca06a834fab364074dec0e2c5f311db7604ff62))
+
+### Upgrade
+
+* Pin dependency winston-transport to 4.4.0 ([9d436e7](https://github.com/pustovitDmytro/winston-array-transport/commit/9d436e7c26a7cb2008ada7296132fde22cf2c138))
+
 # [1.1.0](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.0.2...v1.1.0) (2021-05-05)
 
 
