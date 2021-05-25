@@ -1,3 +1,14 @@
+## [1.1.3](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.2...v1.1.3) (2021-05-25)
+
+
+### Chore
+
+* export default in tests ([9d210e6](https://github.com/pustovitDmytro/winston-array-transport/commit/9d210e6f511a42a9c42f415ba6a64834346c11b0))
+
+### Docs
+
+* fix conflicts in README ([f56af8b](https://github.com/pustovitDmytro/winston-array-transport/commit/f56af8bc1c25dbb705b717adb3359f53f401bd1c))
+
 ## [1.1.2](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.1...v1.1.2) (2021-05-25)
 
 
