@@ -34,10 +34,7 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 There are a lot of cases where you need to parse and analyze your logs. For example, to access them during tests. This package provides transport that allows simply push logs to js array, so you don't need any runtime parsers anymore.
 
 ## Requirements
-<<<<<<< HEAD
-=======
 [![Platform Status][appveyor-badge]][appveyor-url]
->>>>>>> 081e4ed03eebef0eda5305a1486a32cf91cdc62b
 
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
@@ -122,17 +119,11 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_winston-array-transport&metric=alert_status
 [sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_winston-array-transport
 
-<<<<<<< HEAD
 [npm-downloads-badge]: https://img.shields.io/npm/dw/winston-array-transport
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/winston-array-transport
 [npm-size-url]: https://bundlephobia.com/result?p=winston-array-transport
-=======
-[npm-downloads-badge]: https://img.shields.io/npm/dw/npm-boilerplate
-[npm-size-badge]: https://img.shields.io/bundlephobia/min/npm-boilerplate
-[npm-size-url]: https://bundlephobia.com/result?p=npm-boilerplate
 
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/lik73h3vxd7687pr/branch/master?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/npm-boilerplate/branch/master
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/eoq0vx6x0067xo1a/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/winston-array-transport/branch/master
 
 
->>>>>>> 081e4ed03eebef0eda5305a1486a32cf91cdc62b
