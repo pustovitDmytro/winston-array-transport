@@ -3,7 +3,7 @@ import Transport from 'winston-transport';
 import { defaultParser, defaultParserJSON, defaultMaxListeners } from './defaults';
 import { MESSAGE } from './constants';
 
-module.exports = class ArrayTransport extends Transport {
+export default class ArrayTransport extends Transport {
     constructor(options = {}) {
         super(options);
         this.name = options.name || this.constructor.name;
@@ -25,4 +25,4 @@ module.exports = class ArrayTransport extends Transport {
         if (this.limit && this.array.length > this.limit) this.array.shift();
         callback();
     }
-};
+}
