@@ -34,11 +34,17 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 There are a lot of cases where you need to parse and analyze your logs. For example, to access them during tests. This package provides transport that allows simply push logs to js array, so you don't need any runtime parsers anymore.
 
 ## Requirements
+<<<<<<< HEAD
+=======
+[![Platform Status][appveyor-badge]][appveyor-url]
+>>>>>>> 081e4ed03eebef0eda5305a1486a32cf91cdc62b
 
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
-* node `6.0+`
-* npm `3.0+`
+* node `>=10`
+* npm `>=6`
+
+Package is [continuously tested][appveyor-url] on darwin, linux, win32 platforms. All active and maintenance [LTS](https://nodejs.org/en/about/releases/) node releases are supported.
 
 ## Installation
 
@@ -81,25 +87,7 @@ Next options can be configured while transport creation:
 [js-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 ## Contribute
 
-Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions.
-
-Commit message summaries must follow this basic format:
-```
-  Tag: Message (fixes #1234)
-```
-
-The Tag is one of the following:
-* **Fix** - for a bug fix.
-* **Update** - for a backwards-compatible enhancement.
-* **Breaking** - for a backwards-incompatible enhancement.
-* **Docs** - changes to documentation only.
-* **Build** - changes to build process only.
-* **New** - implemented a new feature.
-* **Upgrade** - for a dependency upgrade.
-* **Chore** - for tests, refactor, style, etc.
-
-The message summary should be a one-sentence description of the change. The issue number should be mentioned at the end.
-
+Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions. Read [Contributing Guidelines](.github/CONTRIBUTING.md) for details.
 
 [npm]: https://www.npmjs.com/package/winston-array-transport
 [github]: https://github.com/pustovitDmytro/winston-array-transport
@@ -134,6 +122,17 @@ The message summary should be a one-sentence description of the change. The issu
 [sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_winston-array-transport&metric=alert_status
 [sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_winston-array-transport
 
+<<<<<<< HEAD
 [npm-downloads-badge]: https://img.shields.io/npm/dw/winston-array-transport
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/winston-array-transport
 [npm-size-url]: https://bundlephobia.com/result?p=winston-array-transport
+=======
+[npm-downloads-badge]: https://img.shields.io/npm/dw/npm-boilerplate
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/npm-boilerplate
+[npm-size-url]: https://bundlephobia.com/result?p=npm-boilerplate
+
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/lik73h3vxd7687pr/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/npm-boilerplate/branch/master
+
+
+>>>>>>> 081e4ed03eebef0eda5305a1486a32cf91cdc62b
