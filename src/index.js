@@ -1,3 +1,4 @@
+/* eslint-disable promise/prefer-await-to-callbacks */
 import os from 'os';
 import Transport from 'winston-transport';
 import { defaultParser, defaultParserJSON, defaultMaxListeners } from './defaults';
