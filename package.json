@@ -64,6 +64,7 @@
     "@semantic-release/github": "^7.2.1",
     "@semantic-release/npm": "^7.0.0",
     "@semantic-release/release-notes-generator": "^9.0.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "babel-plugin-module-resolver": "^4.0.0",
     "chai": "^4.2.0",
     "chance": "^1.0.18",
