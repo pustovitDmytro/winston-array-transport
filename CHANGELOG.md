@@ -1,3 +1,27 @@
+## [1.1.4](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.3...v1.1.4) (2021-06-12)
+
+
+### Chore
+
+* fixes npm  audit ([c3beccd](https://github.com/pustovitDmytro/winston-array-transport/commit/c3beccdf1926d72dcf9b13cd153e37916f1a8d13))
+* integrate fossa ([b65e961](https://github.com/pustovitDmytro/winston-array-transport/commit/b65e961a5ae500b1b5fd12fce3436e71c1518e35))
+* integrate node-package-tester ([9d53bf3](https://github.com/pustovitDmytro/winston-array-transport/commit/9d53bf30d295368e7f1e925c18b00e48cc16014e))
+* Lock file maintenance ([3291a21](https://github.com/pustovitDmytro/winston-array-transport/commit/3291a2144ee143dc327f6fb4a8b82e62e07b1c1f))
+* Lock file maintenance ([f674344](https://github.com/pustovitDmytro/winston-array-transport/commit/f6743443aba7031e3d21dd90d97bb738dfda2da8))
+* set YARGS_MIN_NODE_VERSION 10 ([9b6bef9](https://github.com/pustovitDmytro/winston-array-transport/commit/9b6bef9d89f8f0c958ee1fe60f20475dd20c8276))
+* Update dependency eslint-plugin-unicorn to v33 ([bfa00ff](https://github.com/pustovitDmytro/winston-array-transport/commit/bfa00ff354dfb9ffe717e9a36f7a938d44b32611))
+* Update dependency eslint-plugin-unicorn to v33 ([25d2a39](https://github.com/pustovitDmytro/winston-array-transport/commit/25d2a39e89775a7a5ced114378f86b4ce4bcbe41))
+* Update dependency glob-parent to 5.1.2 [SECURITY] ([c957512](https://github.com/pustovitDmytro/winston-array-transport/commit/c957512cf496d9b99e2278b44b6bb9da545f57a8))
+* Update dependency mocha to v9 ([93b7a17](https://github.com/pustovitDmytro/winston-array-transport/commit/93b7a1783ea97a7bcd94d570ef33b61314c93746))
+* update eslint ([6b174b1](https://github.com/pustovitDmytro/winston-array-transport/commit/6b174b184a792fc282ef3228079f23fa81f2bcb5))
+* update eslint-config-incredible ([2f39edb](https://github.com/pustovitDmytro/winston-array-transport/commit/2f39edb6b44795918e8650be3e727b8e7abb61b7))
+* update eslint-config-incredible ([58c31d2](https://github.com/pustovitDmytro/winston-array-transport/commit/58c31d295fa2df7cb3dceda8db6a417144a4b1c3))
+
+### Fix
+
+* fixes es6 export default module.exports compartibility ([adcdcd1](https://github.com/pustovitDmytro/winston-array-transport/commit/adcdcd1d2fcf933cff1c812c7bb9ff8ac7571781))
+* set babel target node version to 10 ([f736568](https://github.com/pustovitDmytro/winston-array-transport/commit/f73656838a20d11da6680579cfccc24a9f4a1201))
+
 ## [1.1.3](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.2...v1.1.3) (2021-05-25)
 
 
