@@ -1,0 +1,11 @@
+version: 2
+cli:
+  server: https://app.fossa.com
+  fetcher: custom
+  project: winston-array-transport
+analyze:
+  modules:
+  - name: .
+    type: npm
+    target: .
+    path: .
