@@ -1,7 +1,6 @@
 # winston-array-transport
 write [winston][w-main] logs directly to javascript [Array][js-array].
 
-
 [![Version][badge-vers]][npm]
 [![Bundle size][npm-size-badge]][npm-size-url]
 [![Downloads][npm-downloads-badge]][npm]
@@ -35,14 +34,14 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 There are a lot of cases where you need to parse and analyze your logs. For example, to access them during tests. This package provides transport that allows simply push logs to js array, so you don't need any runtime parsers anymore.
 
 ## Requirements
-[![Platform Status][appveyor-badge]][appveyor-url]
+[![Platform Status][node-ver-test-badge]][node-ver-test-url]
 
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
 * node `>=10`
 * npm `>=6`
 
-Package is [continuously tested][appveyor-url] on darwin, linux, win32 platforms. All active and maintenance [LTS](https://nodejs.org/en/about/releases/) node releases are supported.
+Package is [continuously tested][node-ver-test-url] on darwin, linux and win32 platforms. All active and maintenance [LTS](https://nodejs.org/en/about/releases/) node releases are supported.
 
 ## Installation
 
@@ -83,6 +82,7 @@ Next options can be configured while transport creation:
 [w-main]: https://github.com/winstonjs/winston
 [w-transports]: https://github.com/winstonjs/winston/blob/master/docs/transports.md
 [js-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 ## Contribute
 
 Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions. Read [Contributing Guidelines](.github/CONTRIBUTING.md) for details.
@@ -90,8 +90,7 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [npm]: https://www.npmjs.com/package/winston-array-transport
 [github]: https://github.com/pustovitDmytro/winston-array-transport
 [coveralls]: https://coveralls.io/github/pustovitDmytro/winston-array-transport?branch=master
-[badge-deps]: https://img.shields.io/david/pustovitDmytro/winston-array-transport.svg
-[badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/winston-array-transport.svg?style=popout
+[badge-deps]: https://img.shields.io/librariesio/release/npm/winston-array-transport.svg
 [badge-vers]: https://img.shields.io/npm/v/winston-array-transport.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/winston-array-transport.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/winston-array-transport/badge.svg?branch=master
@@ -127,10 +126,8 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/winston-array-transport
 [npm-size-url]: https://bundlephobia.com/result?p=winston-array-transport
 
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/eoq0vx6x0067xo1a/branch/master?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/winston-array-transport/branch/master
+[node-ver-test-badge]: https://github.com/pustovitDmytro/winston-array-transport/actions/workflows/npt.yml/badge.svg?branch=master
+[node-ver-test-url]: https://github.com/pustovitDmytro/winston-array-transport/actions?query=workflow%3A%22Node.js+versions%22
 
 [fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fwinston-array-transport.svg?type=shield
 [fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fwinston-array-transport?ref=badge_shield
-
-
