@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.6...v1.1.7) (2022-01-23)
+
+
+### Upgrade
+
+* Update dependency winston-transport to v4.4.2 (#52) ([a1be20c](https://github.com/pustovitDmytro/winston-array-transport/commit/a1be20c9076e41c14a8038c2954ffa65cae5c8aa)), closes [#52](https://github.com/pustovitDmytro/winston-array-transport/issues/52)
+
 ## [1.1.6](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.5...v1.1.6) (2022-01-22)
 
 
