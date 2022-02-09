@@ -1,3 +1,19 @@
+## [1.1.8](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.7...v1.1.8) (2022-02-09)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#59) ([40d5a30](https://github.com/pustovitDmytro/winston-array-transport/commit/40d5a30cc09da2e5f86b959f416b2f8b4777c656)), closes [#59](https://github.com/pustovitDmytro/winston-array-transport/issues/59)
+* Lock file maintenance ([726a007](https://github.com/pustovitDmytro/winston-array-transport/commit/726a0077f81e7683afd26c6ba59c1c5f143ec483))
+* Lock file maintenance (#45) ([4b1a5a2](https://github.com/pustovitDmytro/winston-array-transport/commit/4b1a5a2964962b05f37664b1933f58d9df994255)), closes [#45](https://github.com/pustovitDmytro/winston-array-transport/issues/45)
+* Update dependency node-fetch to 2.6.7 [SECURITY] (#53) ([50a008a](https://github.com/pustovitDmytro/winston-array-transport/commit/50a008adca27591fb65ae5f7ce00721e04a598cf)), closes [#53](https://github.com/pustovitDmytro/winston-array-transport/issues/53)
+* Update devDependencies (non-major) (#47) ([5d0ec54](https://github.com/pustovitDmytro/winston-array-transport/commit/5d0ec543c1672d23422738ec06e3a4a9fd1f3e18)), closes [#47](https://github.com/pustovitDmytro/winston-array-transport/issues/47)
+* Update devDependencies (non-major) (#48) ([725c88d](https://github.com/pustovitDmytro/winston-array-transport/commit/725c88d39fd017b1b2e9686a08b4767ea804ce68)), closes [#48](https://github.com/pustovitDmytro/winston-array-transport/issues/48)
+
+### Upgrade
+
+* Update dependency winston-transport to v4.5.0 (#61) ([9fc8d1c](https://github.com/pustovitDmytro/winston-array-transport/commit/9fc8d1cfe7d49eccab5fe864d57caabd7ddec842)), closes [#61](https://github.com/pustovitDmytro/winston-array-transport/issues/61)
+
 ## [1.1.7](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.6...v1.1.7) (2022-01-23)
 
 
