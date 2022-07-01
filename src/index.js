@@ -7,13 +7,15 @@ import { MESSAGE } from './constants';
 export default class ArrayTransport extends Transport {
     constructor(options = {}) {
         super(options);
+        const maxListeners = Number.isInteger(options.maxListeners) ? options.maxListeners : defaultMaxListeners;
+
         this.name = options.name || this.constructor.name;
         this.eol = options.eol || os.EOL;
         this.array = options.array || [];
         this.levels = options.levels || {};
         this.parser = options.parser || options.json && defaultParserJSON || defaultParser;
         this.limit = options.limit;
-        this.setMaxListeners(options.maxListeners || defaultMaxListeners);
+        this.setMaxListeners(maxListeners);
     }
 
     log(info, callback) {
