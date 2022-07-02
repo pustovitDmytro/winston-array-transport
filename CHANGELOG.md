@@ -1,3 +1,7 @@
+## [unreleased]
+
+* fix `maxListeners` option not supporting `0` as value (#84)
+
 ## [1.1.9](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.8...v1.1.9) (2022-02-28)
 
 

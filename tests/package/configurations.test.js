@@ -45,3 +45,25 @@ test('limit amount of elements in array', function () {
 
     assert.deepEqual(array, [ 96, 97, 98, 99, 100 ].map(i => `{"level":"info","message":${i}}`));
 });
+
+test('default Transport maxListeners', function () {
+    const array = [];
+    const logger = createLogger({
+        level      : 'debug',
+        format     : format.json(),
+        transports : [ new transport({ array, limit: 5 }) ]
+    });
+
+    assert.equal(logger._readableState.pipes._maxListeners, 30);
+});
+
+test('set Transport maxListeners as 0', function () {
+    const array = [];
+    const logger = createLogger({
+        level      : 'debug',
+        format     : format.json(),
+        transports : [ new transport({ array, limit: 5, maxListeners: 0 }) ]
+    });
+
+    assert.equal(logger._readableState.pipes._maxListeners, 0);
+});
