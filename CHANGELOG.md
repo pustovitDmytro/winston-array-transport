@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/pustovitDmytro/winston-array-transport/compare/v1.1.9...v1.1.10) (2022-07-02)
+
+
+### Fix
+
+* Check if maxListeners option is a Number before setting default value (#84) (#85) ([e0a4046](https://github.com/pustovitDmytro/winston-array-transport/commit/e0a4046471d6a1d55d2482d1c9df321c89555381)), closes [#84](https://github.com/pustovitDmytro/winston-array-transport/issues/84) [#85](https://github.com/pustovitDmytro/winston-array-transport/issues/85)
+
 ## [unreleased]
 
 * fix `maxListeners` option not supporting `0` as value (#84)
