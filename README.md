@@ -8,8 +8,6 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 [![CodeFactor][codefactor-badge]][codefactor-url]
 [![SonarCloud][sonarcloud-badge]][sonarcloud-url]
 [![Codacy][codacy-badge]][codacy-url]
-[![Total alerts][lgtm-alerts-badge]][lgtm-alerts-url]
-[![Language grade][lgtm-lg-badge]][lgtm-lg-url]
 [![Scrutinizer][scrutinizer-badge]][scrutinizer-url]
 
 [![Dependencies][badge-deps]][npm]
@@ -20,16 +18,18 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 [![Commit activity][commit-activity-badge]][github]
 [![FOSSA][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
+[![Made in Ukraine][ukr-badge]][ukr-link]
 
 # 🇺🇦 Help Ukraine
 I woke up on my 26th birthday at 5 am from the blows of russian missiles. They attacked the city of Kyiv, where I live, as well as the cities in which my family and friends live. Now my country is a war zone. 
 
-We fight for democratic values, for freedom, for our future! 
-I am stopping any support of my packages by the time until all russians leave my country on trucks or in boxes. 
+We fight for democratic values, freedom, for our future! Once again Ukrainians have to stand against evil, terror, against genocide. The outcome of this war will determine what path human history is taking from now on.
 
-💛💙  Help Ukraine! We need your support! There are dozen ways to help us, just do it!
-
+💛💙  Help Ukraine! We need your support! There are [dozen ways][ukr-link] to help us, just do it!
 ## Table of Contents
+- [winston-array-transport](#winston-array-transport)
+- [🇺🇦 Help Ukraine](#-help-ukraine)
+  - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Requirements](#requirements)
   - [Installation](#installation)
@@ -118,12 +118,6 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/winston-array-transport/badges/quality-score.png?b=master
 [scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/winston-array-transport/?branch=master
 
-[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/winston-array-transport.svg?logo=lgtm&logoWidth=18
-[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/winston-array-transport/context:javascript
-
-[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/winston-array-transport.svg?logo=lgtm&logoWidth=18
-[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/winston-array-transport/alerts/
-
 [codacy-badge]: https://app.codacy.com/project/badge/Grade/75132c6080bc4051801d0bf391df947f
 [codacy-url]: https://www.codacy.com/gh/pustovitDmytro/winston-array-transport/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/winston-array-transport&amp;utm_campaign=Badge_Grade
 
@@ -139,3 +133,6 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 
 [fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fwinston-array-transport.svg?type=shield
 [fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fwinston-array-transport?ref=badge_shield
+
+[ukr-badge]: https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7
+[ukr-link]: https://war.ukraine.ua
