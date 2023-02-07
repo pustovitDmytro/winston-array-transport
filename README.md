@@ -22,7 +22,7 @@ write [winston][w-main] logs directly to javascript [Array][js-array].
 [![License][badge-lic]][github]
 [![Made in Ukraine][ukr-badge]][ukr-link]
 
-# 🇺🇦 Help Ukraine
+## 🇺🇦 Help Ukraine
 I woke up on my 26th birthday at 5 am from the blows of russian missiles. They attacked the city of Kyiv, where I live, as well as the cities in which my family and friends live. Now my country is a war zone. 
 
 We fight for democratic values, freedom, for our future! Once again Ukrainians have to stand against evil, terror, against genocide. The outcome of this war will determine what path human history is taking from now on.
@@ -30,7 +30,7 @@ We fight for democratic values, freedom, for our future! Once again Ukrainians h
 💛💙  Help Ukraine! We need your support! There are [dozen ways][ukr-link] to help us, just do it!
 ## Table of Contents
 - [winston-array-transport](#winston-array-transport)
-- [🇺🇦 Help Ukraine](#-help-ukraine)
+  - [🇺🇦 Help Ukraine](#-help-ukraine)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Requirements](#requirements)
