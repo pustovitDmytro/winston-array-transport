@@ -1,3 +1,5 @@
+![Logo](.docs/logo_250.png "winston-array-transport")
+
 # winston-array-transport
 write [winston][w-main] logs directly to javascript [Array][js-array].
 
